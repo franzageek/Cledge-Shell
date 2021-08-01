@@ -21,9 +21,9 @@ New versions of Cledge Shell are coming, however, you can download from now the 
 
 How to reach me: franzageek21@gmail.com (Please specify that you are writing to me from GitHub)
 
-## Thanks for interesting!
+## Thanks for interest!
 
-We are happy that you are interested to Cledge Shell!
+We are happy that you are interested in Cledge Shell!
 If you want, you can put a reaction in the <a href="https://github.com/franzageek/Cledge-Shell/releases">Release Page</a>.
 Your opinion is really important for us.
 Thanks for reading this, and have a great day!
