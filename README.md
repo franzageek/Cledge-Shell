@@ -14,7 +14,7 @@ The Cledge Shell project was born to allow everyone to simplify daily actions. C
 Swift Softwares is in no way associated or related to Microsoft. All rights of Microsoft and their respective logos hold to the owner.
 
 ## Note
-Some command works only on Windows Vista or higher.
+Some command works only on Windows Vista and higher.
 
 ## Downloads & Releases 
 New versions of Cledge Shell are coming, however, you can download from now the already published versions.
