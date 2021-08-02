@@ -17,7 +17,7 @@ Swift Softwares **is in no way associated or related to Microsoft**. All rights 
 Some command works only on **Windows Vista and higher**.
 
 ## Downloads & Releases 
-New versions of Cledge are coming, however, you can download from now the already published versions.
+New versions of Cledge are coming, however, you can download the already published versions.
 **Check them out at  <a href="https://github.com/franzageek/Cledge-Shell/releases">Release Page</a>.**
 
 ## Contacts
