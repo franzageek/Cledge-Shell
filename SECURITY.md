@@ -18,6 +18,8 @@ This is a table of the Windows Versions supported by Cledge:
 If you find vulnerabilities or bugs, do this:
 
 • Go to **<a href="https://github.com/franzageek/Cledge-Shell/discussions">Discussion page</a>**,
+
 • Go to **<a href="https://github.com/franzageek/Cledge-Shell/discussions/categories/problems">Problems Section</a>**,
+
 • Describe the vulnerability/bug and we will try to fix them.
 Thanks for your collaboration.
