@@ -1,32 +1,71 @@
+<div id='intro' align='center'>
+
 # Cledge Shell
+**Cledge Shell** is a wrapper shell that allows you to perform quick actions
+using **compact** and **easy–to–learn** **commands**. It simplifies your daily
+actions with **PowerShell** and is available for all platforms supported by it.
 
-##  What Cledge Shell is?
-  Cledge Shell **is a program that allows you to perform actions using commands**. It exists **only for Windows** and is programmed in Batch, the simplest and most intuitive Microsoft language. **With Cledge, every action is simplified and made more intuitive**.
+With Cledge, every action is simplified and made more intuitive.
 
-For now, Cledge Shell supports only a few commands, but over time their number will increase exponentially.
+</div>
 
-Its installer places the executable file inside the System32 folder, without which it could not work. **Just type "cledge" in the command prompt, and the shell will start**.
+<div id='get-started'>
 
-For any information, you can **contact us at** swiftdevlabs@gmail.com
+<h2 align='center'>
+Get Started<br/>
+</h2>
 
-## Disclaimer
-The Cledge Shell project was born **to allow everyone to simplify daily actions**. Cledge uses and has been programmed in Batch.
-Swift Softwares **is in no way associated or related to Microsoft**. All rights of Microsoft and their respective logos hold to the owner.
+<div align='center'>
 
-## Note
-Some command works only on **Windows Vista and higher**.
+[![image](https://img.shields.io/github/downloads/franzageek/Cledge-Shell/total?logo=github&label=downloaded&suffix=times&style=plastic)](#go-forth-&-download)
 
-## Downloads & Releases 
-New versions of Cledge are coming, however, you can download the already published versions.
-**Check them out at  <a href="https://github.com/franzageek/Cledge-Shell/releases">Release Page</a>.**
+</div>
 
-## Contacts
+**[NEW]()**: try out our simple one–click installer, for Windows and Linux!<br/>
+Simply type in this command in the folder where you have downloaded Cledge:
 
-How to reach me: franzageek21@gmail.com (Please **specify that you are writing to me from GitHub**)
+```powershell
+.\installer.ps1
+```
 
-## Thanks for interest!
+```powershell
+# Example:
+PS C:\Users\franzageek\Downloads> ls
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          25/12/2021    10:06            125 installer.ps1
+-a---          25/12/2021    10:06          16608 cledge.ps1
 
-We are happy that you are interested in Cledge Shell!
-If you want, **you can put a reaction in the <a href="https://github.com/franzageek/Cledge-Shell/releases">Release Page</a>.
-Your opinion is really important for us**.
+PS C:\Users\franzageek\Downloads> .\installer.ps1
+```
+
+Still in trouble? You can get additional help and documentation from our
+**[wiki](./wiki)**.
+
+</div>
+
+<div id='sysreq' align='center'>
+
+## System Requirements
+| Version | Operating System | Kernel Version | PowerShell Version |
+| ------- | ---------------- | -------------- | ------------------ |
+| **[v1.9]()** | **Windows Vista** and higher | **Windows NT 6.0** | **PowerShell v3** |
+
+Note that some command might not be available on older Windows or PowerShell versions.
+
+</div>
+
+<div id='download'>
+
+<h2 align='center'>Go Forth & Download</h2>
+
+New versions of Cledge are coming, however, you can download the already published
+versions from the **[Release Page]()**.
+
+We are happy that you're interested in Cledge Shell!
+Your opinion is really important to us.
 Thanks for reading this, and have a great day!
+
+For any information, you can **contact us** at **swiftdevlabs@gmail.com**.
+
+</div>
