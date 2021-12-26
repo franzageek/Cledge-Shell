@@ -1,13 +1,13 @@
 param ($item)
 if (-not $item) {
-  if ($args.length > 1) { $item = $args[1] }
+  if ($args.length -lt 1) { $item = $args[1] }
   else {
     Write-Error 'Provide an argument.'
     throw
   }
 }
 
-function £($item) {
+function £($item = $item) {
   $ItemType = $item.GetType().Name
   $ModulePath = "$($env:path.TrimEnd('\').TrimEnd('/'))\$($item.TrimEnd('.ps1')).ps1"
   
@@ -17,7 +17,10 @@ function £($item) {
       Set-Location $item
       $result = $pwd
     }
-    Test-Path $ModulePath {
+    Test-Path $item -PathType Leaf {
+      $result = Get-Content $item
+    }
+    Test-Path $ModulePath -PathType Leaf {
       $result = Invoke-Expression -Command $ModulePath
     }
     ($ItemType -eq string) {
@@ -36,4 +39,4 @@ function £($item) {
   return $result
 }
 
-return £ $item
+return £
