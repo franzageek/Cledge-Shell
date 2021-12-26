@@ -8,7 +8,7 @@ if (-not $name) {
 }
 if (-not $path) { $path = $pwd }
 
-function makefolder($name, $path) {
+function makefolder($name = $name, $path = $path) {
   $FolderPath = "$($path.TrimEnd('\').TrimEnd('/'))\$($name)"
   mkdir $FolderPath
   Set-Location $FolderPath
@@ -17,4 +17,4 @@ function makefolder($name, $path) {
   return $result
 }
 
-return makefolder $name $path
+return makefolder
