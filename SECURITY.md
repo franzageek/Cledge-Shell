@@ -21,5 +21,5 @@ If you find vulnerabilities or bugs, do this:
 
 • Go to **<a href="https://github.com/franzageek/Cledge-Shell/discussions/categories/problems">Problems Section</a>**,
 
-• Describe the vulnerability/bug and we will try to fix them.
+• Describe the vulnerability/bug and we will try to fix it.
 Thanks for your collaboration.
